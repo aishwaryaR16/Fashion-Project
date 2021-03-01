@@ -1,0 +1,77 @@
+<%@ page language="java" contentType="text/html"%>
+<div class="container-fluid">
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+  
+</head>
+<body>
+  <style>
+body {
+background-image: url("images/45.jpg");
+
+</style>
+  <div class="row" >
+      <div class="col-sm-4 text-center"width="50" height="50">
+  
+      <h3 class="text-body""><a href="Tshirt"><em>Tshirt</em></h3>
+       <style>
+      img {
+  width: 50%;
+  height: 50%;
+}
+      </style>
+       <a href="Tshirt">
+      <img src="images/25.jpg" width="50" height="50">
+    </div>
+    
+   <div class="col-sm-4 text-center" width="50" height="50">
+      <h3 class="text-body"><a href="Caprees"><em>Caprees</em></h3>
+      <style>
+
+      img {
+  width: 50%;
+  height: 50%;
+}
+      </style>
+                <a href="Caprees">
+               
+      <img src="images/24.jpg" width="50" height="50">
+    </div>
+    <div class="col-sm-4 text-center" width="50" height="50">
+    
+      <h3 class="</b></em>"><a href="Dresses"><em>Dresses</em></h3>    
+       <style>
+      img {
+  width: 50%;
+  height: 50%;
+}
+      </style>
+             <a href="Dresses">
+      
+      <img src="images/26.jpg" width="50" height="50">    
+      
+    </div>
+     <div class="col-sm-4 text-center" width="50" height="50">
+      <h3 class="</b></em>"><a href="Trousers"><em>Trousers</em></h3>
+      <style>
+
+      img {
+  width: 50%;
+  height: 50%;
+}
+      </style>
+                <a href="Trousers">
+               
+      <img src="images/27.jpg" width="70" height="70">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

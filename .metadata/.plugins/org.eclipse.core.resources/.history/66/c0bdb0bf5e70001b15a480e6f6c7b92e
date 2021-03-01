@@ -1,0 +1,40 @@
+package com.ecomm.test;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.ecomm.dao.CartDAO;
+import com.ecomm.model.Cart;
+
+public class CartDAOTest 
+{
+static CartDAO cartDAO;
+@BeforeClass
+public static void initialize()
+{
+	AnnotationConfigApplicationContext myContext=new AnnotationConfigApplicationContext();
+	myContext.scan("com.ecomm");
+	myContext.refresh();
+	
+	cartDAO=(CartDAO)myContext.getBean("cartDAO");
+}
+
+@Test
+public void addCartTest()
+{
+	Cart cart=new Cart();
+	cart.setItemId(1);
+	cart.setProductId(1001);
+	cart.setProductName("t-shirts");
+	cart.setQuantity(1);
+	cart.setTotalPrice(1500);
+	cart.setPayment("COD");
+	cart.setOrderDate("15-Feb-2021");
+	
+	assertTrue("Problem in inserting Product",cartDAO.addCart(cart));
+}
+
+}

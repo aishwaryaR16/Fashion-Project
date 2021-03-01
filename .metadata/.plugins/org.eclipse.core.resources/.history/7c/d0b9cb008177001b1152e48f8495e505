@@ -1,0 +1,74 @@
+
+<%@ page language="java" contentType="text/html"%>
+<%@include file="CommonHeader.jsp" %>
+
+<body>
+<style>
+body {
+ background-image: url("./images/45.jpeg");
+
+}
+</style>
+
+  <div class="row" >
+      <div class="col-sm-4 text-center"width="50" height="50">
+  
+      <h3 class="text-warning"><a href="Tshirt"><em>Tshirts</em></h3>
+       <style>
+      img {
+  width: 100%;
+  height: 25%;
+}
+      </style>
+       <a href="Tshirt">
+      <img src="images/25.jpg" width="50" height="50">
+    </div>
+    
+    
+  <div class="row" >
+      <div class="col-sm-4 text-center"width="50" height="50">
+  
+      <h3 class="text-warning"><a href="Caprees"><em>Caprees</em></h3>
+       <style>
+      img {
+  width: 100%;
+  height: 25%;
+}
+      </style>
+       <a href="Caprees">
+      <img src="images/24.jpg" width="50" height="50">
+    </div>
+    
+    
+  <div class="row" >
+      <div class="col-sm-4 text-center"width="50" height="50">
+  
+      <h3 class="text-warning"><a href="Dresses"><em>Dresses</em></h3>
+       <style>
+      img {
+  width: 100%;
+  height: 25%;
+}
+      </style>
+       <a href="Dresses">
+      <img src="images/26.jpg" width="50" height="50">
+    </div>
+    
+    
+ 
+      
+        <h3 class="text-warning"><a href="Trouser"><em>Trousers</em></h3>
+       <style>
+      img {
+  width: 100%;
+  height: 25%;
+}
+      </style>
+       <a href="Trouser">
+      <img src="images/27.jpg" width="50" height="50">
+    </div>
+      
+</div></div></div></div>
+</div>
+</body>
+</html>

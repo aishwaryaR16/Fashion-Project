@@ -1,0 +1,31 @@
+
+
+
+<div class="row">
+    <c:forEach items="${productList}" var="product">
+   
+   <div class="row">
+ <div class="col-xs-12 col-sm-4 col-md-3">
+      <div class="thumbnail" width="50" height="50">
+   
+   <a href=/UserHome/${product.productId} class="thumbnail">
+         <img src="<c:url value="images/${product.productId}.jpg"/>" alt="Generic placeholder thumbnail"/>
+         </a>
+         
+        
+            <p align="center">  ProdDesc:${product.productName}</p>
+         <p align="center"> Price:${product.price}</p>
+         <p align="center">  ProdDesc:${product.productDesc}</p>
+         
+         
+     </div>
+         
+         
+         
+         </c:forEach>
+   </div>
+  
+</div>
+</div>
+</body>
+</html>

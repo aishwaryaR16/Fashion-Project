@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CategoryDAOTest" project="FashionProject" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.ecomm.test.CategoryDAOTest" time="0.883">
+    <testcase name="deleteCategoryTest" classname="com.ecomm.test.CategoryDAOTest" time="0.513"/>
+    <testcase name="retrieveCategoriesTest" classname="com.ecomm.test.CategoryDAOTest" time="0.37"/>
+  </testsuite>
+</testrun>

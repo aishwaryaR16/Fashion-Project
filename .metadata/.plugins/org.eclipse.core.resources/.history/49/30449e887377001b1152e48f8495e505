@@ -1,0 +1,172 @@
+<%@ page language="java" contentType="text/html"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<div class="container-fluid">
+
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+<style>
+body {
+background-image: url("images/43.jpg")
+
+</style>
+ <div class="row">
+ <div class="container">
+<form action="<c:url value="/addToCart/${product.productId}"/>">
+</form>
+<table class="table-responsive">
+  <tr>
+  <td rowspan="6">
+   <div class="col-sm-3 col-sm-3 col-sm-3 col-sm-3">
+  
+         <img src="<c:url value="images/T1.jpg"/> "height="300" alt=" Generic placeholder thumbnail"/>
+         <i class="bi bi-heart"></i>
+</td>
+<tr>
+<td><b>Product Id:1</b> </td>
+<td> ${product.productId}</td>
+</tr>
+
+<tr>
+<td> Product Name: Denim Shirt </td>
+<td> ${product.productName}</td>
+</tr>
+
+<tr>
+<td> ProductDesc:       Denim shirts for party wear.</td>
+<td> ${product.productdesc}</td>
+</tr>
+<tr>
+
+<td> Quantiy
+<select name="quantity">
+  <option value="1"> 1 </option>
+  <option value="2"> 2</option>
+  <option value="3"> 3</option>
+  <option value="4"> 4</option>
+  <option value="5"> 5</option>
+</select>
+</td>
+<td> <input type="submit" value="Buy" class="btn btn-success">
+</td></tr>
+</table>
+
+</br></br></br></br></br>
+
+<table class="table-responsive">
+  <tr>
+  <td rowspan="6">
+         <img src="<c:url value="images/T2.jpg"/> "height="300" alt=" Generic placeholder thumbnail"/>
+</td>
+<tr>
+<td><b> Product Id: 2</b></td>
+<td> ${product.productId}</td>
+</tr>
+
+<tr>
+<td> Product Name: Denim Shirt </td>
+<td> ${product.productName}</td>
+</tr>
+
+<tr>
+<td> ProductDesc: Denim shirts for party wear.</td>
+<td> ${product.productdesc}</td>
+</tr>
+<tr>
+
+<td> Quantiy
+<select name="quantity">
+  <option value="1"> 1 </option>
+  <option value="2"> 2</option>
+  <option value="3"> 3</option>
+  <option value="4"> 4</option>
+  <option value="5"> 5</option>
+</select>
+</td>
+<td> <input type="submit" value="Buy" class="btn btn-success">
+</td></tr>
+</table>
+</br></br></br></br></br>
+
+<table class="table-responsive">
+  <tr>
+  <td rowspan="6">
+         <img src="<c:url value="images/T3.jpg"/> "height="300" alt=" Generic placeholder thumbnail"/>
+</td>
+<tr>
+<td><b> Product Id 3</b></td>
+<td> ${product.productId}</td>
+</tr>
+
+<tr>
+<td> Product Name: Louis Philippe Shirt </td>
+<td> ${product.productName}</td>
+</tr>
+
+<td> ProductDesc:Formal shirt.</td>
+<td> ${product.productdesc}</td>
+</tr>
+<tr>
+
+<td> Quantiy
+<select name="quantity">
+  <option value="1"> 1 </option>
+  <option value="2"> 2</option>
+  <option value="3"> 3</option>
+  <option value="4"> 4</option>
+  <option value="5"> 5</option>
+</select>
+</td>
+
+<td> <input type="submit" value="Buy" class="btn btn-success">
+
+</td></tr>
+</table>
+</br></br></br></br></br>
+
+<table class="table-responsive">
+  <tr>
+  <td rowspan="6">
+         <img src="<c:url value="images/T4.jpeg"/> "height="300" alt=" Generic placeholder thumbnail"/>
+</td>
+<tr>
+<td><b> Product Id: 4</b></td>
+<td> ${product.productId}</td>
+</tr>
+
+<tr>
+<td> Product Name: U.S Polo </td>
+<td> ${product.productName}</td>
+</tr>
+
+
+<tr>
+<td> ProductDesc:Tshirt for trendy look</td>
+<td> ${product.productdesc}</td>
+</tr>
+<tr>
+
+<td> Quantiy
+<select name="quantity">
+  <option value="1"> 1 </option>
+  <option value="2"> 2</option>
+  <option value="3"> 3</option>
+  <option value="4"> 4</option>
+  <option value="5"> 5</option>
+</select>
+</td>
+<td> <input type="submit" value="Buy" class="btn btn-success">
+</td></tr>
+</table>
+</br></br></br></br></br>
+
+</div>
+</body>
+</div>

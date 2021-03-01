@@ -1,0 +1,15 @@
+127.0.0.1 - - [20/Feb/2021:12:56:09 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:12:56:12 +0530] "GET /FashionProjectFrontend/ HTTP/1.1" 200 1745
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:12:56:12 +0530] "GET /FashionProjectFrontend/images/FashionClub.png HTTP/1.1" 200 4913
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:12:56:12 +0530] "GET /FashionProjectFrontend/images/21.jpg HTTP/1.1" 200 63912
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:12:56:23 +0530] "GET /FashionProjectFrontend/ HTTP/1.1" 200 1745
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:12:56:24 +0530] "GET /FashionProjectFrontend/images/FashionClub.png HTTP/1.1" 200 4913
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:12:56:24 +0530] "GET /FashionProjectFrontend/images/21.jpg HTTP/1.1" 200 63912
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:12:56:24 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:12:56:32 +0530] "GET /FashionProjectFrontend/contactus HTTP/1.1" 200 3385
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:12:56:32 +0530] "GET /FashionProjectFrontend/images/FashionClub.png HTTP/1.1" 200 4913
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:01:13 +0530] "GET /FashionProjectFrontend/ HTTP/1.1" 200 1745
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:01:17 +0530] "GET /FashionProjectFrontend/images/FashionClub.png HTTP/1.1" 200 4913
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:01:17 +0530] "GET /FashionProjectFrontend/images/21.jpg HTTP/1.1" 200 63912
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:01:19 +0530] "GET /FashionProjectFrontend/contactus HTTP/1.1" 200 3385
+0:0:0:0:0:0:0:1 - - [20/Feb/2021:13:01:19 +0530] "GET /FashionProjectFrontend/images/FashionClub.png HTTP/1.1" 200 4913

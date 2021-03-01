@@ -1,0 +1,9 @@
+INDEX VERSION 1.131
+C:\Users\LENOVO\eclipse-FP(FASHION)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2291258630.index
+\FashionProject\src\main\java
+C:\Users\LENOVO\eclipse-FP(FASHION)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2619510937.index
+\FashionProjectFrontend\src\main\resources
+C:\Users\LENOVO\eclipse-FP(FASHION)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3086825871.index
+\FashionProjectFrontend\src\main\resources
+C:\Users\LENOVO\eclipse-FP(FASHION)\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3533239656.index
+\FashionProjectFrontend\src\main\resources

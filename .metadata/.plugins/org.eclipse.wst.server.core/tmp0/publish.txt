@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sat Feb 27 19:26:13 IST 2021
+org.eclipse.jst.j2ee.server\:FashionProject=WEB-INF/lib/FashionProject-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\LENOVO\\.m2\\repository\\org\\springframework\\spring-web\\5.2.4.RELEASE\\spring-web-5.2.4.RELEASE.jar=WEB-INF/lib/spring-web-5.2.4.RELEASE.jar

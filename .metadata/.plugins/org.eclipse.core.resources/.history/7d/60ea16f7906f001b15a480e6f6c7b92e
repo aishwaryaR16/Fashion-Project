@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html"%>
+<%@include file="CommonHeader.jsp" %>
+
+<body>
+<div class="container">
+<br/>
+ <div style="font-family:Cursive Lucida Handwriting ">
+
+Welcome : ${sessionScope.username}
+In User Module.
+</div>
+<br/>
+
+
+</body>
+</html>

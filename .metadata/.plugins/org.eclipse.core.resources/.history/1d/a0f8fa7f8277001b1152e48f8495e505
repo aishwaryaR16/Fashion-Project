@@ -1,0 +1,60 @@
+<body>
+  <div class="row" >
+      <div class="col-sm-4 text-center"width="50" height="50">
+  
+      <h3 class="text-warning"><a href="Tshirt"><em>Tshirt</em></h3>
+       <style>
+      img {
+  width: 100%;
+  height: 25%;
+}
+      </style>
+       <a href="Tshirt">
+      <img src="images/45.jpg" width="50" height="50">
+    </div>
+    
+   <div class="col-sm-4 text-center" width="50" height="50">
+      <h3 class="text-warning"><a href="Caprees"><em>Caprees</em></h3>
+      <style>
+
+      img {
+  width: 100%;
+  height: 25%;
+}
+      </style>
+                <a href="Caprees">
+               
+      <img src="images/46.jpg" width="50" height="50">
+    </div>
+    <div class="col-sm-4 text-center" width="50" height="50">
+    
+      <h3 class="text-primary"><a href="Dresses"><em>Dresses</em></h3>    
+       <style>
+      img {
+  width: 100%;
+  height: 25%;
+}
+      </style>
+             <a href="Dressesr">
+      
+      <img src="Images/47.jpg" width="50" height="50">    
+      
+    </div>
+     <div class="col-sm-4 text-center" width="50" height="50">
+      <h3 class="text-warning"><a href="Trousers"><em>Trousers</em></h3>
+      <style>
+
+      img {
+  width: 100%;
+  height: 25%;
+}
+      </style>
+                <a href="Trousers">
+               
+      <img src="images/49.jpg" width="50" height="50">
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

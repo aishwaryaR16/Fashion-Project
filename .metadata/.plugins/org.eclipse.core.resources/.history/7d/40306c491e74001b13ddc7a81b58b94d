@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+
+<body>
+<table align="center">
+
+	<tr bgcolor="yellow">
+		<td align="center" colspan="2"><h3><b>PRODUCT DETAILS</b></h3></td>
+	</tr>
+</body>
+</html>

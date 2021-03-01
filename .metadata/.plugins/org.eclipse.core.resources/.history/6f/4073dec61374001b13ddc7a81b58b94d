@@ -1,0 +1,11 @@
+package com.ecomm.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.ecomm.dao.ProductDAO;
+
+public class CartController 
+{
+	@Autowired
+	ProductDAO productDAO;
+}
